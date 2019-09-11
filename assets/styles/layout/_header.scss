@@ -1,0 +1,9 @@
+.header {
+    height: 400px;
+
+    &--overlay {
+        height: 400px;
+        background-color: black;
+        opacity: 0.3;
+    }
+}
