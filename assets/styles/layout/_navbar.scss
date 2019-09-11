@@ -1,0 +1,43 @@
+.navbar {
+    padding: 0 1rem;
+
+}
+
+.navbar-position {
+    position: absolute;
+    top: 0;
+    margin-left: 5rem;
+}
+
+.navbar-brand img {
+    width: 90%;
+}
+
+.nav-link {
+    color: white;
+    font-weight: bold;
+    font-size: 1.4rem;
+    transition: ease 0.5s;
+    line-height: 80px;
+
+    &:hover {
+        color: #00aee2;
+
+    }
+
+}
+
+.nav-item {
+    margin-right: 2rem;
+}
+
+
+.dropdown:hover .toggle {
+    display: block;
+}
+
+
+
+#navbarNav {
+    margin-left: 4rem;
+}
