@@ -16,5 +16,17 @@ html {
 body {
     font-size: $font-size-base;
     font-family: $default-font;
+    color: $black;
 
+}
+
+.wrap {
+    background-color: #F5F5F5;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+
+}
+
+.wrap .container {
+    @include breakpoint (md) {}
 }

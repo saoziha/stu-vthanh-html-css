@@ -5,8 +5,11 @@
     <title></title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
     <link href="assets/styles/main.css" rel="stylesheet">
 </head>
 
@@ -15,13 +18,15 @@
         <h1>Let's talk</h1>
         <h2>Stay in touch with us</h2>
     </header>
-    <div class="container navbar-position">
+    <div class="navbar-position">
         <nav class="navbar navbar-expand-lg">
-            <a class="navbar-brand" href="#"><img src="assets/images/stunited-logo.png" alt=""></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+            <div class="responsive-menu">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+                </button>
+                <a class="navbar-brand" href="#"><img src="assets/images/stunited-logo.png" alt=""></a>
+            </div>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item active">
@@ -57,6 +62,117 @@
             </div>
         </nav>
     </div>
+    <main class="wrap">
+        <div class="container">
+            <section class="contact">
+                <div class="tag">
+                    <a href="">Home</a>
+                    <span>></span>
+                    <a href="">Let's talk</a>
+                </div>
+
+                <h2 class="contact__title">Let's talk</h2>
+
+                <div class="contact__content">
+                    <div class="row">
+                        <div class="contact__form col-md-8">
+                            <p><strong>ST United</strong> is always glad to hear your comments regarding our services.
+                                Whether you have any
+                                questions, or wish to get a quote for your project, or require further information about
+                                what we can offer you, please do not hesitate to contact us</p>
+                            <form action="">
+                                <div class="form-group">
+                                    <label for=""><strong>Your Name</strong></label>
+                                    <input type="text" name="" id="" class="form-control" placeholder="">
+                                </div>
+                                <div class="form-group">
+                                    <label for=""><strong>Your Email</strong></label>
+                                    <input type="email" name="" id="" class="form-control" placeholder="">
+                                </div>
+                                <div class="form-group">
+                                    <label for=""><strong>Your Phone</strong></label>
+                                    <input type="tel" name="" id="" class="form-control" placeholder="">
+                                </div>
+                                <div class="form-group">
+                                    <label for=""><strong>Your Subject</strong></label>
+                                    <input type="text" name="" id="" class="form-control" placeholder="">
+                                </div>
+                                <div class="form-group">
+                                    <label for=""><strong>Your Message</strong></label>
+                                    <textarea name="" class="form-control" rows="5"></textarea>
+                                </div>
+                                <input type="submit" class="btn btn__search" value="Send">
+                            </form>
+                        </div>
+                        <div class="contact__address col-md-4">
+                            <p><strong>Office</strong></p>
+                            <p>Address: Nomad Space, No.14 An Thuong 18, Danang, Vietnam</p>
+                            <p>Hotline: (+84) 777 463 183</p>
+                            <p>Email: hello(at)stunited.vn</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="main-footer">
+            <div class="row">
+                <div class="col-md-4 col-sm-12">
+                    <h2>MENU</h2>
+                    <ul id="footer-menu-main">
+                        <li>
+                            <a class="main-footer__link" href=""><i class="fas fa-caret-right"></i>HOME</a>
+                        </li>
+                        <li>
+                            <a class="main-footer__link" href=""><i class="fas fa-caret-right"></i>WHAT WE DO</a>
+                            <ul id="footer-menu-sub">
+                                <li><a class="main-footer__link" href=""><i class="fas fa-caret-right"></i>ST
+                                        SOFTWARE</a></li>
+                                <li><a class="main-footer__link" href=""><i class="fas fa-caret-right"></i>ST
+                                        DIGITAL</a></li>
+                                <li><a class="main-footer__link" href=""><i class="fas fa-caret-right"></i>ST
+                                        INCUBATION</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a class="main-footer__link" href=""><i class="fas fa-caret-right"></i>WHO WE ARE</a>
+                        </li>
+                        <li>
+                            <a class="main-footer__link" href=""><i class="fas fa-caret-right"></i>PORTFOLIO</a>
+                        </li>
+                        <li>
+                            <a class="main-footer__link" href=""><i class="fas fa-caret-right"></i>JOIN US</a>
+                        </li>
+                        <li>
+                            <a class="main-footer__link" href=""><i class="fas fa-caret-right"></i>LET’S TALK</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="main-footer__address col-md-4 col-sm-12">
+                    <h2>CONTACT US</h2>
+                    <p>Nomad Space</p>
+                    <p><i class="fa fa-location-arrow"></i>14 An Thuong 18, Danang</p>
+                    <p><i class="fa fa-phone"></i> Call us +84 905 610 229</p>
+                    <p><i class="far fa-envelope"></i><a class="main-footer__link"
+                            href="mailto:info@stdsoftware.com">info@stdsoftware.com</a></p>
+                </div>
+
+                <div class="main-footer__facebook col-md-4 col-sm-12">
+                    <iframe
+                        src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fstunited.vn%2F&tabs=timeline&width=340&height=70&small_header=false&adapt_container_width=false&hide_cover=false&show_facepile=false&appId=2007170362683027"
+                        width="340" height="200" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                        allowTransparency="true" allow="encrypted-media"></iframe>
+                </div>
+            </div>
+        </div>
+
+        <div class="sub-footer">
+            Copyright © 2019 by ST United.
+        </div>
+    </footer>
 
 </body>
 
@@ -69,5 +185,6 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
 </script>
+
 
 </html>

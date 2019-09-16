@@ -1,0 +1,28 @@
+.contact {
+    @include breakpoint (md) {
+        font-size: 0.9em;
+    }
+
+    &__title {
+        margin: 3rem 0;
+        color: black;
+        font-size: 3rem;
+    }
+
+    &__content {
+        font-family: 'roboto-thin';
+        padding: 4rem 3rem;
+        background-color: white;
+
+    }
+
+    &__address {
+        @include breakpoint (sm) {
+            padding-top: 2rem;
+        }
+    }
+}
+
+.tag {
+    font-size: 1.5rem;
+}

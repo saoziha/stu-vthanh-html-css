@@ -1,0 +1,78 @@
+.main-footer {
+    padding: 10rem 5rem 7rem 5rem;
+    background-color: $light-black;
+    color: white;
+
+    &__link {
+        color: $white;
+        transition: 0.5s;
+        font-size: 1.6rem;
+
+        & i {
+            padding-right: 0.5rem;
+        }
+
+        @include breakpoint (md) {
+            font-size: 1.3rem;
+        }
+    }
+
+    &__link:hover {
+        text-decoration: none;
+        color: $light-blue;
+    }
+
+    & ul {
+        list-style-type: none;
+    }
+
+    &__address {
+        font-size: 1.6rem;
+
+        @include breakpoint (md) {
+            font-size: 1.3rem;
+        }
+
+        @include breakpoint (sm) {
+            padding-top: 2rem;
+        }
+
+        & i {
+            margin-right: 1rem;
+            font-size: 1.4rem;
+
+            @include breakpoint (md) {
+                font-size: 0.8rem;
+            }
+        }
+    }
+
+    &__facebook {
+        @include breakpoint (md) {
+            margin-left: -3rem;
+        }
+    }
+
+    & h2 {
+        font-size: 2rem;
+
+        @include breakpoint (md) {
+            font-size: 1.7rem;
+        }
+    }
+
+}
+
+#footer-menu-main {
+    column-count: 2;
+}
+
+#footer-menu-sub {
+    margin-left: 2rem;
+}
+
+.sub-footer {
+    color: $white;
+    background-color: $black;
+    padding: 2.5rem 0 1.5rem 5rem;
+}
